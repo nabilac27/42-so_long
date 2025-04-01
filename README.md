@@ -23,16 +23,17 @@ The game involves rendering, movement, and collision detection.
 To run the project, follow these steps:
 
 1. Compile the program: `make`.
-3. run the game, use the following format: `./so_long map.ber`.
-4. Rebuild the Project: `make re`.
-
-## Example
-
-```bash
-$ make
-$ ./so_long map.ber
-$ make re
-```
+   ```bash
+    $ make
+    ```
+2.  run the game, use the following format: `./so_long map.ber`.
+    ```bash
+    $ ./so_long map.ber
+    ```
+3. Rebuild the Project: `make re`.
+    ```bash
+    $ make re
+    ```
 
 ## **Functions Overview**
 
