@@ -18,7 +18,7 @@ The game involves rendering, movement, and collision detection.
 - **Collectibles & Exit**: The player collects items, which unlock the exit when all items are gathered.
 
 
-## How to run
+## How to Run
 
 To run the project, follow these steps:
 
