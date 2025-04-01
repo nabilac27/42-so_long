@@ -7,7 +7,7 @@ The game involves rendering, movement, and collision detection.
 
 ## **Key Concepts**
 
-- **MLX42 Library**: Used for rendering graphics, handling user input, and managing the game window.
+- **[MLX42 Library](https://github.com/codam-coding-college/MLX42)**: Used for rendering graphics, handling user input, and managing the game window.
 
 - **Game Loop**: The loop updates the game state, renders graphics, and checks player input.
 
