@@ -17,6 +17,9 @@ The game involves rendering, movement, and collision detection.
 
 - **Collectibles & Exit**: The player collects items, which unlock the exit when all items are gathered.
 
+
+
+
 ## **Functions Overview**
 
 | **Function**                            | **Description** |
@@ -43,6 +46,9 @@ The game involves rendering, movement, and collision detection.
 | `pixel(mlx_image_t *img, uint32_t x, uint32_t y)` | Retrieves the pixel at coordinates (x, y) in the image. |
 | `handle_key(mlx_key_data_t keydata, void *param)` | Handles key press events for player movement. |
 | `move_key(t_game *game, int x, int y)`  | Moves the player to a new position based on key input. |
+
+
+
 
 ## **MLX42 Functions Overview**
 
