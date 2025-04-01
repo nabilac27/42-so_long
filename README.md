@@ -19,27 +19,34 @@ The game involves rendering, movement, and collision detection.
 
 ## **Functions Overview**
 
-| **Function**                            | **Description** |
-|-----------------------------------------|-----------------|
-| `check_args_map(int argc, char **argv, t_game *game)` | Validates the arguments passed to the program and prepares the game. |
-| `game_render(t_game *game)`             | Renders the game elements to the screen. |
-| `check_collect_exit(t_game *game)`      | Checks if all collectibles are collected and the exit can be accessed. |
-| `game_loop(t_game *game)`               | Main loop of the game that handles game events and updates. |
-| `free_2d(char **array)`                 | Frees a 2D array used for map storage. |
-| `parse_map(t_game *game, char *map_name)` | Parses the map file to extract the layout. |
-| `read_map(t_game *game, char *map_name)` | Reads the map file into the game structure. |
-| `read_line(t_game *game, char *line, int i)` | Reads a single line from the map file. |
-| `check_map(t_game *game)`               | Validates the parsed map to ensure it's correct. |
-| `check_valid_map(t_game *game, char c, int y, int x)` | Checks if the map contains valid characters. |
-| `start_render(t_game *game)`            | Starts the rendering process for the game window. |
-| `read_textures(t_game *game)`           | Loads textures needed for the game environment. |
-| `read_mlx_to_image(t_game *game)`      | Converts loaded textures into images that can be displayed. |
-| `dup_map(t_game *game)`                 | Duplicates the map for internal processing. |
-| `flood_fill(t_game *game, int x, int y, char c)` | Ensures there are no unreachable areas in the map. |
-| `render_tile_img(void *param)`          | Renders a tile's image to the screen. |
-| `render_map(t_game *game)`              | Renders the entire map to the screen. |
-| `render_tile(t_game *game, int x, int y)` | Renders a specific tile at coordinates (x, y). |
-| `tile_img_to_img(mlx_image_t *img, mlx_image_t *tile_img, int x, int y)` | Converts tile images into a format for the game window. |
-| `pixel(mlx_image_t *img, uint32_t x, uint32_t y)` | Retrieves the pixel at coordinates (x, y) in the image. |
-| `handle_key(mlx_key_data_t keydata, void *param)` | Handles key press events for player movement. |
-| `move_key(t_game *game, int x, int y)`  | Moves the player to a new position based on key input. |
+### **MLX42 Library Functions**
+
+| Function                                | Description                                                                 |
+|-----------------------------------------|-----------------------------------------------------------------------------|
+| `start_render(t_game *game)`            | Initializes rendering with MLX and starts the game window.                   |
+| `read_textures(t_game *game)`           | Loads textures for game elements (player, walls, etc.) into MLX.            |
+| `read_mlx_to_image(t_game *game)`      | Converts loaded textures into MLX images for rendering.                      |
+| `render_tile_img(void *param)`         | Renders a specific tile image to the game window.                            |
+| `render_map(t_game *game)`             | Renders the entire game map using MLX images.                               |
+| `render_tile(t_game *game, int x, int y)`| Renders an individual tile at the specified coordinates.                    |
+| `tile_img_to_img(mlx_image_t *img, mlx_image_t *tile_img, int x, int y)` | Copies a tile image to the game window at the given coordinates.            |
+| `pixel(mlx_image_t *img, uint32_t x, uint32_t y)` | Retrieves the pixel data at the specified coordinates in an image.          |
+
+### **Non-MLX Functions**
+
+| Function                                | Description                                                                 |
+|-----------------------------------------|-----------------------------------------------------------------------------|
+| `check_args_map(int argc, char **argv, t_game *game)` | Verifies the program arguments and initializes the game.                    |
+| `game_render(t_game *game)`             | Updates and renders the game state (including player movement).             |
+| `check_collect_exit(t_game *game)`      | Checks if all collectibles are gathered and if the exit is accessible.      |
+| `game_loop(t_game *game)`               | The main game loop that runs continuously to update the game.               |
+| `free_2d(char **array)`                | Frees a dynamically allocated 2D array used for map data.                   |
+| `parse_map(t_game *game, char *map_name)` | Parses the game map from a file.                                           |
+| `read_map(t_game *game, char *map_name)` | Reads the map from the specified file.                                      |
+| `read_line(t_game *game, char *line, int i)` | Reads and processes a single line of the map.                               |
+| `check_map(t_game *game)`               | Validates the map for correct formatting and contents.                      |
+| `check_valid_map(t_game *game, char c, int y, int x)` | Checks individual map positions for validity.                               |
+| `dup_map(t_game *game)`                 | Duplicates the map for processing.                                          |
+| `flood_fill(t_game *game, int x, int y, char c)` | Ensures the player can reach all map areas by performing flood-fill.        |
+| `handle_key(mlx_key_data_t keydata, void *param)` | Handles user keyboard input to move the player.                             |
+| `move_key(t_game *game, int x, int y)`  | Moves the player on the map based on keyboard input.                        |
