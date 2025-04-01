@@ -19,7 +19,7 @@ The game involves rendering, movement, and collision detection.
 
 ## **Functions Overview**
 
-### **MLX42 Library Functions**
+### **MLX Functions**
 
 | Function                                | Description                                                                 |
 |-----------------------------------------|-----------------------------------------------------------------------------|
