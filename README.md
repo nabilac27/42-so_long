@@ -54,15 +54,15 @@ The game involves rendering, movement, and collision detection.
 
 | **Step**                   | **Function**                | **Description**                                                                 |
 |----------------------------|-----------------------------|---------------------------------------------------------------------------------|
-| **1. Initialization**       | `mlx_init`                  | Initializes the MLX window with the specified size and window name.             |
-| **2. Image Creation**       | `mlx_new_image`             | Creates a new image with the specified width and height.                        |
-| **3. Game Loop & Input**    | `mlx_loop_hook`             | Registers a function to be called every time the game loop runs.                |
+| **Initialization**       | `mlx_init`                  | Initializes the MLX window with the specified size and window name.             |
+| **Image Creation**       | `mlx_new_image`             | Creates a new image with the specified width and height.                        |
+| **Game Loop & Input**    | `mlx_loop_hook`             | Registers a function to be called every time the game loop runs.                |
 |                            | `mlx_key_hook`              | Registers a function to handle keyboard input during the game loop.             |
-| **4. Settings**             | `mlx_set_setting`           | Enables or disables image stretching for window rendering.                      |
-| **5. Event Loop**           | `mlx_loop`                  | Starts the MLX event loop, rendering the window and handling events.            |
-| **6. Termination & Cleanup**| `mlx_terminate`             | Terminates the MLX library and frees associated resources.                      |
+| **Settings**             | `mlx_set_setting`           | Enables or disables image stretching for window rendering.                      |
+| **Event Loop**           | `mlx_loop`                  | Starts the MLX event loop, rendering the window and handling events.            |
+| **Termination & Cleanup**| `mlx_terminate`             | Terminates the MLX library and frees associated resources.                      |
 |                            | `mlx_close_window`          | Closes the MLX window.                                                         |
-| **7. Image and Pixel Handling** | `mlx_put_pixel`          | Places a pixel with the specified color at coordinates in the image.            |
+| **Image and Pixel Handling** | `mlx_put_pixel`          | Places a pixel with the specified color at coordinates in the image.            |
 |                            | `mlx_image_to_window`       | Renders the image to the game window at position (0, 0).                        |
 |                            | `mlx_load_png`              | Loads a PNG texture from the specified path.                                    |
 |                            | `mlx_texture_to_image`      | Converts the texture into an image that can be rendered by MLX.                 |
