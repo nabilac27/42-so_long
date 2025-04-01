@@ -18,7 +18,21 @@ The game involves rendering, movement, and collision detection.
 - **Collectibles & Exit**: The player collects items, which unlock the exit when all items are gathered.
 
 
+## How to Run
 
+To run the project, follow these steps:
+
+1. Compile the program: `make`.
+3. run the game, use the following format: `./so_long map.ber`.
+4. Rebuild the Project: `make re`.
+
+## Example
+
+```bash
+$ make
+$ ./so_long map.ber
+$ make re
+```
 
 ## **Functions Overview**
 
