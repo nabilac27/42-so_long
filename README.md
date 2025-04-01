@@ -1,5 +1,5 @@
 # **so_long**
-The **so_long** project is a 2D game created using the **MLX42** library,
+The **so_long** project is a 2D game created using the **[MLX42 Library](https://github.com/codam-coding-college/MLX42)** library,
 
 where the player navigates through a map collecting items and reaching an exit. 
 
