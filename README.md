@@ -35,6 +35,9 @@ To run the project, follow these steps:
     $ make re
     ```
 
+---
+   
+
 ## **Functions Overview**
 
 | **Function**                            | **Description** |
