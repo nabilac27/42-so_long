@@ -99,8 +99,7 @@ To run the project, follow these steps:
 | `handle_key(mlx_key_data_t keydata, void *param)` | Handles key press events for player movement. |
 | `move_key(t_game *game, int x, int y)`  | Moves the player to a new position based on key input. |
 
-
-
+---
 
 ## **MLX42 Functions Overview**
 
@@ -120,6 +119,7 @@ To run the project, follow these steps:
 |                            | `mlx_texture_to_image`      | Converts the texture into an image that can be rendered by MLX.                 |
 | **Key Data Structure**      | `mlx_key_data_t`            | Data structure used for key event handling, containing key code and state.     |
 
+---
 
 ## Preview
 ![Screenshot of So Long](https://raw.githubusercontent.com/nabilac27/42-so_long/main/docs/so_long_screenshot.png)
