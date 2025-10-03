@@ -28,7 +28,7 @@ To run the project, follow these steps:
     ```
 2.  run the game, use the following format: `./so_long map.ber`.
     ```bash
-    $ ./so_long map.ber
+    $ ./so_long maps.ber
     ```
 3. Rebuild the Project: `make re`.
     ```bash
@@ -36,7 +36,49 @@ To run the project, follow these steps:
     ```
 
 ---
-   
+
+## Folder Structure
+42-so_long/
+│
+├── docs/
+│   └── so_long_screenshot.png
+│
+├── so_long/
+│   ├── include/
+│   │   └── so_long.h
+│   ├── lib/
+│   │   ├── ft_printf/
+│   │   ├── get_next_line/
+│   │   └── libft/
+│   ├── maps/
+│   │   ├── maps.ber
+│   │   ├── maps1.ber
+│   │   ├── maps2.ber
+│   │   ├── maps3.ber
+│   │   ├── maps4.ber
+│   │   └── maps5.ber
+│   ├── src/
+│   │   ├── handle_map.c
+│   │   ├── key_functions.c
+│   │   ├── main.c
+│   │   ├── main_helper.c
+│   │   ├── parse_map.c
+│   │   ├── render_img.c
+│   │   └── render_mlx.c
+│   └── textures/
+│       ├── collectibles.png
+│       ├── empty.png
+│       ├── exit.png
+│       ├── player.png
+│       ├── player3.png
+│       └── wall.png
+│
+├── .gitignore
+├── Makefile
+└── README.md
+
+
+---
 
 ## **Functions Overview**
 
