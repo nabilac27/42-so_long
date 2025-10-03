@@ -85,3 +85,7 @@ To run the project, follow these steps:
 |                            | `mlx_load_png`              | Loads a PNG texture from the specified path.                                    |
 |                            | `mlx_texture_to_image`      | Converts the texture into an image that can be rendered by MLX.                 |
 | **Key Data Structure**      | `mlx_key_data_t`            | Data structure used for key event handling, containing key code and state.     |
+
+
+## Preview
+(docs/so_long_screenshot.png)
