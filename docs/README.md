@@ -88,4 +88,5 @@ To run the project, follow these steps:
 
 
 ## Preview
-https://raw.githubusercontent.com/nabilac27/42-so_long/refs/heads/main/docs/so_long_screenshot.png
+![Screenshot of So Long](https://raw.githubusercontent.com/nabilac27/42-so_long/main/docs/so_long_screenshot.png)
+
