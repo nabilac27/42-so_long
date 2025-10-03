@@ -88,4 +88,4 @@ To run the project, follow these steps:
 
 
 ## Preview
-![Screenshot](github.com/nabilac27/42-so_long/docs/so_long_screenshot.png)
+https://github.com/nabilac27/42-so_long/blob/main/docs/so_long_screenshot.png
