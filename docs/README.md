@@ -23,9 +23,9 @@ To run the project, follow these steps:
    ```bash
     $ make
     ```
-2.  run the game, use the following format: `./so_long map.ber`.
+2.  run the game, use the following format: `./so_long [maps name].
     ```bash
-    $ ./so_long maps.ber
+    $ ./so_long ./maps/maps.ber
     ```
 3. Rebuild the Project: `make re`.
     ```bash
