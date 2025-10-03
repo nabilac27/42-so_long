@@ -38,6 +38,7 @@ To run the project, follow these steps:
 ---
 
 ## Folder Structure
+```
 42-so_long/
 │
 ├── docs/
@@ -76,7 +77,7 @@ To run the project, follow these steps:
 ├── .gitignore
 ├── Makefile
 └── README.md
-
+```
 
 ---
 
