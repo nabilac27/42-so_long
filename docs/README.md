@@ -88,4 +88,4 @@ To run the project, follow these steps:
 
 
 ## Preview
-(docs/so_long_screenshot.png)
+![Screenshot](docs/so_long_screenshot.png)
