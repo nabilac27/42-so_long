@@ -52,11 +52,6 @@ To run the project, follow these steps:
 │ │ └── libft/
 │ ├── maps/
 │ │ ├── maps.ber
-│ │ ├── maps1.ber
-│ │ ├── maps2.ber
-│ │ ├── maps3.ber
-│ │ ├── maps4.ber
-│ │ └── maps5.ber
 │ ├── src/
 │ │ ├── handle_map.c
 │ │ ├── key_functions.c
