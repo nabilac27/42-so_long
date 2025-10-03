@@ -23,7 +23,7 @@ To run the project, follow these steps:
    ```bash
     $ make
     ```
-2.  run the game, use the following format: `./so_long [maps name].
+2.  run the game, use the following format: ./so_long [maps name].
     ```bash
     $ ./so_long ./maps/maps.ber
     ```
