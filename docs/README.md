@@ -39,6 +39,8 @@ To run the project, follow these steps:
 42-so_long/
 │
 ├── docs/
+│   └── en.subject.pdf
+│   └── README.md
 │   └── so_long_screenshot.png
 │
 ├── so_long/
